@@ -6,7 +6,7 @@ FROM item,
      stock,
      supplier,
      order_line,
-     oorder,
+     orders,
      nation
 WHERE ol_i_id = s_i_id
   AND ol_supply_w_id = s_w_id
