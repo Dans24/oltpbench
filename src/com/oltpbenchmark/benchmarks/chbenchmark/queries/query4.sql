@@ -1,6 +1,6 @@
 SELECT o_ol_cnt,
        count(*) AS order_count
-FROM oorder
+FROM orders
 WHERE exists
     (SELECT *
      FROM order_line

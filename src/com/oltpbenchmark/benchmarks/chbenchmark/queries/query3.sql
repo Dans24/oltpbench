@@ -5,7 +5,7 @@ SELECT ol_o_id,
        o_entry_d
 FROM customer,
      new_order,
-     oorder,
+     orders,
      order_line
 WHERE c_state LIKE 'A%'
   AND c_id = o_c_id

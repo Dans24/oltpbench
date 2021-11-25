@@ -22,7 +22,7 @@ WHERE substring(c_phone from 1 for 1) IN ('1',
                                    '7'))
   AND NOT EXISTS
     (SELECT *
-     FROM oorder
+     FROM orders
      WHERE o_c_id = c_id
        AND o_w_id = c_w_id
        AND o_d_id = c_d_id)

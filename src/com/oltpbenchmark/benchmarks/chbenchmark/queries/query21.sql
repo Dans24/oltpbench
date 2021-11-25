@@ -2,7 +2,7 @@ SELECT su_name,
        count(*) AS numwait
 FROM supplier,
      order_line l1,
-     oorder,
+     orders,
      stock,
      nation
 WHERE ol_o_id = o_id

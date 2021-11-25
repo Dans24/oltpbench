@@ -1,7 +1,7 @@
 SELECT n_name,
        sum(ol_amount) AS revenue
 FROM customer,
-     oorder,
+     orders,
      order_line,
      stock,
      supplier,

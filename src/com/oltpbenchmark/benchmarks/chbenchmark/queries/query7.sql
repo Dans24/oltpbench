@@ -6,7 +6,7 @@ SELECT su_nationkey AS supp_nation,
 FROM supplier,
      stock,
      order_line,
-     oorder,
+     orders,
      customer,
      nation n1,
      nation n2
